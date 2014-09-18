@@ -13,9 +13,6 @@ grunt
 npm start
 ```
 
-### Work left to do
-- add git hooks to run grunt after pulling
-
 For the Angular version, check out https://github.com/joshcai/joshcai.github.io
 
 For the first version, check out https://github.com/joshcai/website
