@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "name": "PleaseObserve.me",
-      "link": "http://pleaseobserve.me",
-      "desc": "Created a web app to keep track of what I did during the day for around 75 days"
+      "name": "Time Tracker",
+      "link": "http://observe.joshcai.com",
+      "desc": "Created a web app to keep track of what activities I did during the day for around 75 days"
     },
     {
       "name": "LectureSync",

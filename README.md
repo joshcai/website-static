@@ -14,7 +14,6 @@ npm start
 ```
 
 ### Work left to do
-- deploy on my own server
 - add git hooks to run grunt after pulling
 
 For the Angular version, check out https://github.com/joshcai/joshcai.github.io
