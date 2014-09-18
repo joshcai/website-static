@@ -1,0 +1,10 @@
+.text-center
+  span.caps PROJECTS
+#projects.large-width.centered
+  each project in projects
+    .col.text-center
+      .padded
+        a(href='!{project.link}')
+          h4 !{project.name}
+        p !{project.desc}
+  .clear
