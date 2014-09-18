@@ -5,9 +5,15 @@ Personal website v2, same visual layout as the github pages version, but doesn't
 
 I switched to this approach since I was only using Angular to separate different parts of my HTML and do some substitutions, which would be better done server side. (Users don't have to download Angular, and no JavaScript is needed.)
 
+If you are trying to run this yourself, you will have to do the following after cloning the git repository:
+
+```shell
+npm install
+grunt
+npm start
+```
+
 ### Work left to do
-- separate styles into own LESS files
-- add static server to serve build files
 - deploy on my own server
 - add git hooks to run grunt after pulling
 

@@ -1,0 +1,46 @@
+#projects {
+  margin-bottom: 20px;
+}
+
+.large-width {
+  width: 800px;
+}
+
+@media (max-width: 820px) {
+  .large-width {
+    width: auto;
+  }
+
+  .col {
+    width: 520px;
+    margin: 0 auto;
+    float: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .col {
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+
+.col {
+  position: relative;
+  min-height: 1px;
+  width: 33.3333333333%;
+  float: left;
+}
+
+.padded {
+  position: relative;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.clear {
+  clear: both;
+}
