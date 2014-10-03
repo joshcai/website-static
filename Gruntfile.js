@@ -27,17 +27,6 @@ module.exports = function(grunt) {
       },
     },
 
-    imagemin: {
-      compress: {
-        files: [{
-            expand: true,
-            cwd: 'src/',
-            src: ['**/*.{png,jpg,gif}'],
-            dest: 'build/'
-        }],
-      },
-    },
-
     watch: {
       css: {
         files: ['src/less/*.less'],
@@ -47,19 +36,14 @@ module.exports = function(grunt) {
         files: ['src/jade/*.jade'],
         tasks: ['jade'],
       },
-      img: {
-        files: ['src/img/*.*'],
-        tasks: ['imagemin'],
-      },
-    },
+   },
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-less');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['jade', 'less', 'imagemin']);
+  grunt.registerTask('default', ['jade', 'less']);
 
 };
