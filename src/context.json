@@ -1,14 +1,19 @@
 {
   "projects": [
     {
-      "name": "Time Tracker",
-      "link": "http://observe.joshcai.com",
-      "desc": "Created a web app to keep track of what activities I did during the day for around 75 days"
+      "name": "EasySkim",
+      "link": "https://easyskim.co.uk",
+      "desc": "Developed at OxHack - summarizes PDFs of your academic papers for easy skimming"
     },
     {
       "name": "LectureSync",
       "link": "http://lecture-sync.com",
       "desc": "Built at HackTech with friends - lets you sync slides with a professor's lecture and take notes on them"
+    },
+    {
+      "name": "Time Tracker",
+      "link": "http://observe.joshcai.com",
+      "desc": "Created a web app to keep track of what activities I did during the day for around 75 days"
     },
     {
       "name": "UTD JavaScript Camp",
