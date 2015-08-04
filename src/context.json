@@ -1,24 +1,40 @@
 {
-  "projects": [
-    {
-      "name": "EasySkim",
-      "link": "https://easyskim.co.uk",
-      "desc": "Developed at OxHack - summarizes PDFs of your academic papers for easy skimming"
-    },
-    {
-      "name": "LectureSync",
-      "link": "http://lecturesync.joshcai.com/",
-      "desc": "Built at HackTech with friends - lets you sync slides with a professor's lecture and take notes on them"
-    },
-    {
-      "name": "Time Tracker",
-      "link": "http://observe.joshcai.com",
-      "desc": "Created a web app to keep track of what activities I did during the day for around 75 days"
-    },
-    {
-      "name": "UTD JavaScript Camp",
-      "link": "http://utdcs.herokuapp.com",
-      "desc": "Volunteered at a camp to teach high school kids how to code - they uploaded their JavaScript code here"
-    }
+  "rows": [
+    [
+      {
+        "name": "Lists",
+        "link": "http://lists.joshcai.com",
+        "desc": "Keeps track of various lists of things (with infinite sublists!), built with React.js"
+      },
+      {
+        "name": "McDermott Projects",
+        "link": "https://github.com/mcdermott-scholars",
+        "desc": "A collection of projects to make the McDermott Scholars Program better"
+      }
+    ],
+    [
+      {
+        "name": "EasySkim",
+        "link": "https://easyskim.co.uk",
+        "desc": "Developed at OxHack - summarizes PDFs of your academic papers for easy skimming"
+      },
+      {
+        "name": "LectureSync",
+        "link": "http://lecturesync.joshcai.com",
+        "desc": "Built at HackTech with friends - lets you sync slides with a professor's lecture and take notes on them"
+      }
+    ],
+    [
+      {
+        "name": "Time Tracker",
+        "link": "http://observe.joshcai.com",
+        "desc": "Created a web app to keep track of what activities I did during the day for around 75 days"
+      },
+      {
+        "name": "UTD JavaScript Camp",
+        "link": "http://utdcs.herokuapp.com",
+        "desc": "Volunteered at a camp to teach high school kids how to code - they uploaded their JavaScript code here"
+      }
+    ]
   ]
 }
