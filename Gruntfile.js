@@ -11,7 +11,7 @@ module.exports = function(grunt) {
           },
         },
         files: {
-          'build/index.html': ['src/jade/index.jade'],
+          'index.html': ['src/jade/index.jade'],
         },
       },
     },
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
           cleancss: true,
         },
         files: {
-          'build/css/styles.css': 'src/less/styles.less',
+          'css/styles.css': 'src/less/styles.less',
         },
       },
     },

@@ -2,3 +2,4 @@ node_modules/
 build/*.html
 build/css/styles.css
 build/img/
+npm-debug.log
