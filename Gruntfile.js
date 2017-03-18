@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     less: {
       minify: {
         options: {
-          cleancss: true,
+          compress: true,
         },
         files: {
           'css/styles.css': 'src/less/styles.less',
