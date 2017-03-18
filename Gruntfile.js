@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    jade: {
+    pug: {
       compile: {
         options: {
           data: function(dest, src) {
@@ -11,7 +11,7 @@ module.exports = function(grunt) {
           },
         },
         files: {
-          'index.html': ['src/jade/index.jade'],
+          'index.html': ['src/pug/index.pug'],
         },
       },
     },
@@ -33,17 +33,17 @@ module.exports = function(grunt) {
         tasks: ['less'],
       },
       html: {
-        files: ['src/jade/*.jade'],
-        tasks: ['jade'],
+        files: ['src/pug/*.pug'],
+        tasks: ['pug'],
       },
    },
 
   });
 
-  grunt.loadNpmTasks('grunt-contrib-jade');
+  grunt.loadNpmTasks('grunt-contrib-pug');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['jade', 'less']);
+  grunt.registerTask('default', ['pug', 'less']);
 
 };
