@@ -7,22 +7,11 @@
         "desc": "Keeps track of various lists of things (with infinite sublists!), built with React.js"
       },
       {
-        "name": "McDermott Projects",
-        "link": "https://github.com/mcdermott-scholars",
-        "desc": "A collection of projects to make the McDermott Scholars Program better"
-      }
-    ],
-    [
-      {
-        "name": "Time Tracker",
-        "link": "http://observe.joshcai.com",
-        "desc": "Created a web app to keep track of what activities I did during the day for around 75 days"
-      },
-      {
         "name": "UTD JavaScript Camp",
         "link": "http://utdcs.herokuapp.com",
         "desc": "Volunteered at a camp to teach high school kids how to code - they uploaded their JavaScript code here"
       }
     ]
-  ]
+  ],
+  "age": 23
 }
