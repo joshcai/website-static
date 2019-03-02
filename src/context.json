@@ -4,7 +4,7 @@
       {
         "name": "Lists",
         "link": "http://lists.joshcai.com",
-        "desc": "Keeps track of various lists of things (with infinite sublists!), built with React.js"
+        "desc": "Keeps track of various lists of things with infinite sublists, built with React.js"
       },
       {
         "name": "UTD JavaScript Camp",
@@ -13,5 +13,5 @@
       }
     ]
   ],
-  "age": 23
+  "age": 24
 }

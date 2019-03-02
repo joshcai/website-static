@@ -13,6 +13,12 @@ grunt
 npm start
 ```
 
+You may need to install the grunt-cli if you haven't already:
+
+```shell
+npm install -g grunt-cli
+```
+
 For the Angular version this was based on, check out https://github.com/joshcai/website-angular.
 
 For the original version, check out https://github.com/joshcai/website.
